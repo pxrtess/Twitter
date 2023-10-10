@@ -1,0 +1,57 @@
+nav{
+    font-size:xx-large;
+}
+.sec-login{
+    width: 70%;
+    margin: 3em auto;
+    background-color: #00acee;
+    padding: 2em;
+    border-radius: 0.5em;
+    color: rgb(246, 246, 246);
+}
+.sec-login label{
+    margin-left: 5%;
+    font-size: x-large;
+    margin-top: 200px;
+}
+.sec-login input[type=email], .sec-login input[type=password], .sec-login input[type=text]{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    height: 3em;
+    margin-bottom: 0.5em;
+    border-radius: 0.3em;
+    padding-left: 0.5rem;
+    color: rgb(25, 25, 25);
+}
+.sec-login input[type=submit]{
+    background-color: #2ddc02;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    font-size: large;
+    margin-left: auto;
+    margin-right: 5%;
+    display: flex;
+}
+
+.mensagem{
+    margin-inline: auto;
+    color: red;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 2em;
+    width: fit-content;
+}
+.sec-cadastro input{
+    background-color: #0084b8;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    font-size: large;
+    margin: auto;
+    margin-top: 1em;
+    display: flex;
+}

@@ -1,0 +1,63 @@
+nav {
+    font-size: x-large;
+}
+
+.content {
+    display: flex;
+}
+
+.content-left {
+    background-color: red;
+    width: 20%;
+    height: 100%;
+    border-width: 5px;
+    border-color: black;
+}
+
+.content-middle {
+    background-color: rgb(193, 255, 193);
+    width: 55%;
+}
+
+.content-right {
+    background-color: rgb(177, 0, 193);
+    width: 25%;
+}
+
+.content-left button {
+    width: max-content;
+    margin-right: 100%;
+    padding: 1.5em;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.div-tweet {
+    width: 100%;
+}
+
+.div-tweet input:first-of-type {
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    padding: 1em;
+    font-size: large;
+    border-color: black;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    background-color: transparent;
+}
+
+.div-tweet input:last-of-type {
+    margin-left: 80%;
+    padding: 1em;
+    font-size: medium;
+    background-color: #00acee;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    font-weight: bold;
+}
