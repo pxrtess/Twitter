@@ -61,3 +61,26 @@ nav {
     border-radius: 2em;
     font-weight: bold;
 }
+.tweet{
+    padding: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.tweet-perfil{
+    align-items: center;
+    display: flex;
+}
+.usuario-data{
+    display: flex;
+    width: 100%;
+}
+.usuario{
+    margin-left: 0.5em;
+}
+.data{
+    margin-left: auto;
+}
+.tweet-texto{
+    margin-left: 3.5em;
+}

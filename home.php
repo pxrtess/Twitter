@@ -1,5 +1,8 @@
-<?php 
+<?php
 session_start();
+if (!isset($page)) {
+    require 'inicial.php';
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,23 +31,15 @@ session_start();
             <button>Notificações</button>
             <button>Mensagens</button>
             <button>Listas</button>
-            <button>Perfil</button>
-            <h3><?php echo($_SESSION['username'])?></h3>
+            <button href="app/perfil.php">Perfil</button>
+            <h3><?php echo ($_SESSION['username']) ?></h3>
         </section>
         <section class="content-middle">
-            <div class="div-tweet">
-                <form action="app/tweetar.php">
-                    <input type="text" placeholder="O que você está pensando?">
-                    <br>
-                    <input type="submit" value="Tweetar">
-                </form>
-            </div>
-            <br>
-            <hr>
-            <div class="tweets">
-
-            </div>
+            <?php
+            echo ($page);
+            ?>
         </section>
     </section>
 </body>
+
 </html>
